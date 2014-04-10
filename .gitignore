@@ -1,0 +1,14 @@
+npm-debug.log
+.DS_Store
+ehthumbs.db
+Thumbs.db
+.project
+
+node_modules
+*.geojson
+*.zip
+*.shp
+
+layers
+.thumb.png
+project.mml

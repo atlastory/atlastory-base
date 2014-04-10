@@ -1,0 +1,71 @@
+{
+  "base-map": "../../base-map",
+  "regions": [
+    "central-asia",
+    "asia",
+    "western-europe",
+    "north-america"
+  ],
+  "layers": [
+    {
+      "type": "settlement",
+      "geometry": "point",
+      "file": ""
+    },
+    {
+      "type": "admin-2-labels",
+      "geometry": "point",
+      "file": ""
+    },
+    {
+      "type": "admin-1-labels",
+      "geometry": "point",
+      "file": ""
+    },
+    {
+      "type": "graticules",
+      "geometry": "linestring",
+      "file": "http://atlastory.s3.amazonaws.com/geodata/graticules.zip"
+    },
+    {
+      "type": "coastline",
+      "geometry": "linestring",
+      "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-coastline.zip"
+    },
+    {
+      "type": "ocean",
+      "geometry": "polygon",
+      "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-ocean.zip"
+    },
+    {
+      "type": "admin-2",
+      "geometry": "polygon",
+      "file": ""
+    },
+    {
+      "type": "lakes",
+      "geometry": "polygon",
+      "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-lakes.zip"
+    },
+    {
+      "type": "rivers",
+      "geometry": "linestring",
+      "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-rivers-lake-centerlines.zip"
+    },
+    {
+      "type": "admin-1",
+      "geometry": "polygon",
+      "file": ""
+    },
+    {
+      "type": "countries",
+      "geometry": "polygon",
+      "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip"
+    },
+    {
+      "type": "land",
+      "geometry": "polygon",
+      "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-land.zip"
+    }
+  ]
+}

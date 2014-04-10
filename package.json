@@ -1,0 +1,23 @@
+{
+    "name": "atlastory-base",
+    "version": "0.0.5",
+    "description": "Atlastory base style and functions",
+    "private": true,
+    "author": {
+        "name": "Atlastory, Inc.",
+        "url": "http://www.atlastory.com/"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/atlastory/atlastory-base.git"
+    },
+    "scripts": {
+        "start": "node create.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "lodash": "*",
+        "glob": "~3.2.9"
+    }
+}
