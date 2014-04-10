@@ -6,8 +6,7 @@ var args, file, json, key, value;
 
 // Get GeoJSON file
 args = process.argv;
-if (args[0] == 'node') args = args.slice(2);
-else args = args.slice(1);
+args = (args[0] == 'node') ? args.slice(2) : args.slice(1);
 file = args[0];
 key = args[1] || null;
 value = args[2] || '';
