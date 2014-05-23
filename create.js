@@ -101,4 +101,5 @@ function finish() {
     // Write project.mml file
 
     fs.writeFileSync('project.mml', JSON.stringify(project,null,2));
+    console.log("Success! 'project.mml' file built")
 }
