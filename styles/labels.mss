@@ -27,7 +27,7 @@
   [_size=4][zoom=6],
   [_size=5][zoom=7] {
     text-name: [name];
-    text-size: @admin-1-font-size + 2;
+    text-size: @admin-1-font-size;
     text-character-spacing: @admin-1-spacing + 1;
   }
   [_size=0][zoom=3],
@@ -37,7 +37,7 @@
   [_size=4][zoom=7],
   [_size=5][zoom=8] {
     text-name: [name];
-    text-size: @admin-1-font-size + 4;
+    text-size: @admin-1-font-size + 2;
     text-character-spacing: @admin-1-spacing + 3;
   }
   [_size=0][zoom=4],
@@ -47,7 +47,7 @@
   [_size=4][zoom=8],
   [_size=5][zoom=9] {
     text-name: [name];
-    text-size: @admin-1-font-size + 9;
+    text-size: @admin-1-font-size + 5;
     text-character-spacing: @admin-1-spacing + 5;
   }
   [_size=0][zoom=5],
@@ -56,7 +56,7 @@
   [_size=3][zoom=8],
   [_size=4][zoom=9] {
     text-name: [name];
-    text-size: @admin-1-font-size + 12;
+    text-size: @admin-1-font-size + 9;
     text-character-spacing: @admin-1-spacing + 7;
   }
   [_size=0][zoom=6],
@@ -64,7 +64,7 @@
   [_size=2][zoom=8],
   [_size=3][zoom=9] {
     text-name: [name];
-    text-size: @admin-1-font-size + 20;
+    text-size: @admin-1-font-size + 15;
     text-character-spacing: @admin-1-spacing + 11;
   }
 }
