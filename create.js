@@ -6,8 +6,8 @@ var fs = require('fs'),
     _ = require('lodash'),
     glob = require('glob');
 
-var config = require('config.json'),
-    project = require('project.json'),
+var config = require('./config.json'),
+    project = require('./project.json'),
     layers = [],
     layer;
 
